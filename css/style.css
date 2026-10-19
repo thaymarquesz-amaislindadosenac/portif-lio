@@ -1,6 +1,74 @@
 .fonte {
-  font-family: "Monsieur La Doulaise", cursive;
-  font-weight: 400;
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
+}
+
+
+html {
+font-size: 62.5%;
+scroll-behavior: smooth;
+}
+
+:root {
+--rosa: #d98ca3
+--rosa claro: #f4dce4
+--escuro: #2d2528
+--branco: #ffffff
+
+--titulo: 'Playflair Display', serif
+--corpo: 'Inter', sans-serif;
+}
+
+body{
+margin: 0;
+font-family: var(--corpo);
+font-size: 1.6rem;
+line-height: 1.6;
+color: black;
+background-color:rgb(89, 124, 165);
+}
+
+header{
+position: sticky;
+top: 0;
+z-index: 10000;
+background-color: rgb(186, 221, 231);
+color:rgb(0, 46, 8);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1.5rem 5%;
+box-shadow: 0 2px 8px rgba(39, 64, 82, 0.15);
+}
+
+.fonte{
+color:rgb(138, 190, 173);
+font-family: https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap
+font-size: 2.4rem;
+font-weight: 900;
+text-decoration: none;
+}
+
+nav ul{
+list-style: none;
+display: flex;
+gap: 2rem;
+margin: 0;
+padding: 0;
+}
+
+nav a {
+position:relative;
+color:brown;
+text-decoration: none;
+padding: 0.5rem 0;
+transition: color 0.3s;
+}
+
+nav a:hover,
+nav a:focus {
+color: rgb(0, 0, 0);
 }
 

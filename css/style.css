@@ -1,55 +1,64 @@
-.fonte {
+.bitter-fonte {
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 700;
   font-style: normal;
 }
 
-
 html {
-font-size: 62.5%;
+font-size: 63.5%;
 scroll-behavior: smooth;
 }
 
 :root {
---rosa: #d98ca3
---rosa claro: #f4dce4
---escuro: #2d2528
---branco: #ffffff
+--rosa: #d98ca3;
+--rosa-claro: #f4dce4;
+--escuro: #2d2528;
+--branco: #ffffff;
 
---titulo: 'Playflair Display', serif
+--titulo: 'Playflair Display', serif;
 --corpo: 'Inter', sans-serif;
 }
 
 body{
 margin: 0;
-font-family: var(--corpo);
+font-family: var(--titulo) ;
 font-size: 1.6rem;
 line-height: 1.6;
-color: black;
-background-color:rgb(89, 124, 165);
+color: rgb(3, 3, 2);
+background: 
+           linear-gradient(
+            rgba(214, 94, 208, 0.65),
+            rgba(184, 3, 255, 0.85)
+    
+           );
 }
 
 header{
 position: sticky;
 top: 0;
-z-index: 10000;
-background-color: rgb(186, 221, 231);
-color:rgb(0, 46, 8);
+z-index: 10000000;
+background-color: rgb(177, 83, 146);
+color:rgb(196, 37, 156);
 display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 1.5rem 5%;
-box-shadow: 0 2px 8px rgba(39, 64, 82, 0.15);
+box-shadow: 0 2px 9px rgba(82, 135, 170, 0.15);
 }
 
-.fonte{
-color:rgb(138, 190, 173);
-font-family: https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap
+.bitter-fonte{
+color:rgb(36, 0, 25);
+font-family: 'Playfair', serif;
 font-size: 2.4rem;
-font-weight: 900;
+font-weight: 1000;
 text-decoration: none;
 }
+
+.dark .bitter-fonte{
+color:rgb(216, 216, 216);
+}
+
 
 nav ul{
 list-style: none;
@@ -61,7 +70,7 @@ padding: 0;
 
 nav a {
 position:relative;
-color:brown;
+color:rgb(133, 78, 170);
 text-decoration: none;
 padding: 0.5rem 0;
 transition: color 0.3s;
@@ -70,5 +79,38 @@ transition: color 0.3s;
 nav a:hover,
 nav a:focus {
 color: rgb(0, 0, 0);
+}
+
+.hero {
+height: 100vh;
+/* background: 
+           linear-gradient(
+            rgba(106, 94, 214, 0.65),
+            rgba(153, 120, 132, 0.85)
+    
+           ); */
+           display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: var(--branco);
+          text-align: center;
+          padding: 2rem;
+}
+
+/*titulo*/
+
+.hero h1 {
+font-family: var(--titulo);
+font-size: 5rem;
+margin: 1rem 0;
+text-shadow: 
+0 3px 15px rgba(190, 40, 183, 0.65);
+}
+
+/*texto*/
+
+.hero p {
+  max-width: 600px;
 }
 

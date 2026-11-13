@@ -6,7 +6,7 @@
 }
 
 html {
-font-size: 62.5%;
+font-size: 70.5%;
 scroll-behavior: smooth;
 }
 
@@ -28,8 +28,8 @@ line-height: 1.6;
 color: rgb(3, 3, 2);
 background: 
            linear-gradient(
-            rgba(214, 94, 208, 0.65),
-            rgba(163, 57, 250, 0.85)
+            rgba(200, 80, 183, 0.65),
+            rgba(175, 87, 248, 0.85)
     
            );
 }
@@ -108,7 +108,7 @@ font-family: var(--titulo);
 font-size: 5rem;
 margin: 1rem 0;
 text-shadow: 
-0 3px 15px rgba(190, 40, 183, 0.65);
+0 3px 15px rgba(110, 24, 106, 0.65);
 }
 
 /*texto*/
